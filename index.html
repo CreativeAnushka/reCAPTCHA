@@ -7,15 +7,17 @@
 </script>
   </head>
   <body>
-    <form action="?" method="POST">
+    <form action="#" method="POST">
       <div class="g-recaptcha" data-sitekey="6LfJg2ofAAAAAEyPDerlErcdGcVN-iR7PRQ4Eg7y"></div>
       <br/>
       <input type="submit" value="Submit">
     </form>
     <script type="text/javascript">
-  var onloadCallback = function() {
-    alert("grecaptcha is ready!");
-  };
+  var onloadCallback = function() {   
+  var RecaptchaOptions = {
+    theme : 'custom',
+    custom_theme_widget: 'recaptcha_widget'
+ };
 </script>
   </body>
 </html>
